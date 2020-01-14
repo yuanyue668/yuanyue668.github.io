@@ -1,3 +1,3 @@
 ### Yuan's Blog
 
-url [http://yuanyue95.github.io]
+url [https://yueyuab95.github.io/][https://yueyuan95.github.io/]
