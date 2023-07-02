@@ -30,7 +30,7 @@
                 
             </p>
             <p>
-			    <a href="#">微信</a> | <a href="#">邮件</a> | <a href="#">简历</a> | <a href="#">github</a>
+			    <a id="weixin" data-toggle="popover" data-placement="bottom">微信</a> | <a href="#">邮件</a> | <a href="#">简历</a> | <a href="#">github</a>
 			</p>
 			<p>
                 <a href="./index.html">English >>></a>
@@ -59,6 +59,14 @@
 		</div>
 	</div>
 </div>
+
+<script>
+    $('#weixin').popover({
+        trigger : 'hover',
+        html:true,
+        content:"<img src='img/weixin.jpg'>"
+    });
+</script>
 
 </body>
 </html>

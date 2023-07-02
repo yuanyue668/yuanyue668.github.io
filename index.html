@@ -27,7 +27,7 @@
                 Master, Software Engineering, Key Laboratory of Image Processing and Pattern Recognition in Jiangxi Province, Nanchang HangKong University
             </p>
             <p>
-			    <a href="#">WeChat</a> | <a href="#">Email</a> | <a href="#">Resume</a> | <a href="#">github</a>
+			    <a id="weixin" data-toggle="popover" data-placement="bottom">WeChat</a> | <a href="#">Email</a> | <a href="#">Resume</a> | <a href="https://github.com/yuanyue668/">github</a>
 			</p>
 			<p>
                 <a href="./index_ch.html">Chinese >>></a>
@@ -56,6 +56,14 @@
 		</div>
 	</div>
 </div>
+
+<script>
+    $('#weixin').popover({
+        trigger : 'hover',
+        html:true,
+        content:"<img src='img/weixin.jpg'>"
+    });
+</script>
 
 </body>
 </html>
